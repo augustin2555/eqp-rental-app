@@ -29,16 +29,14 @@ function Loginpage({ setLoginUser }) {
 
   return (
     <>
-      <h1
-        className="mt-5"
+      <h3
+        className="mt-3"
         style={{
-          color: "purple",
           textAlign: "center",
-          backgroundColor: "goldenrod",
         }}
       >
-        WELCOME TO OUR EQUIPMENT RENTAL PORTAL
-      </h1>
+        Welcome to our equipment rental portal...
+      </h3>
       <div className="login" style={{ marginTop: "10vh", marginLeft: "75vh" }}>
         <h1>Login</h1>
         <input
